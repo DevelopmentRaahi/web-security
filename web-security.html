@@ -193,14 +193,37 @@
 
 
     <!-- hero section -->
+     <style>
+      .first_section{
+        padding: 2.4vw 0;            
+      }
+     
+    .row-design_gap .second_image img{
+      animation: updown 2s linear infinite forwards;
+      width: 100%;
+      transition: all 0.5s;
+    }
+    @keyframes updown{
+      0%, 100% {
+        transform: translateY(0) scale(0.95);
+      }
+      40% {
+        transform: translateY(-8px) scale(1);
+      }
+    }
+    .row-design_gap .second_image img{
+      animation: updown 2s ease infinite forwards;
+      transition: all 0.5s;
+    }
+      
+     </style>
 
     <div class="container-fluid background_random">
         <div class="container">
             <div class="row row-design_gap  ">
-                <div class="col-md-6 col-lg-7 col-sm-12  ">
-                    <div class="first_section ">
-                     
-                        <h2>  Best <span> SiteLock Security, Website Protection Service </span> <br> provider in India</h2>
+                <div class="col-md-7 col-lg-7 col-sm-12 ">
+                    <div class="first_section ">                     
+                        <h2>  Best <span> SiteLock Security, Website Protection <br></span> Service   provider in India</h2>
                         <!-- <p>Buy Best Linux CPanel Shared Hosting In India - Domgys</p> -->
                         <br>
                         <a class="btn btn-design" href="#Product_show">Explore more </a>
